@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A•HOME Riviera Maya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>A•HOME</h1>
+                    <span>Riviera Maya</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#propiedades">Propiedades</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Encuentra tu hogar en la Riviera Maya</h1>
+            <p class="hero-subtitle">Propiedades exclusivas en el paraíso caribeño</p>
+            <div class="hero-buttons">
+                <a href="#propiedades" class="btn btn-primary">Ver Propiedades</a>
+                <a href="#contacto" class="btn btn-secondary">Contactar</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏖️</div>
+                    <h3>Ubicaciones Premium</h3>
+                    <p>Las mejores zonas de la Riviera Maya</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏠</div>
+                    <h3>Variedad de Propiedades</h3>
+                    <p>Casas, departamentos y terrenos</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Asesoría profesional en cada paso</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Transacciones Seguras</h3>
+                    <p>Procesos legales y transparentes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="propiedades" class="properties">
+        <div class="container">
+            <div class="section-header">
+                <h2>Propiedades Destacadas</h2>
+                <p>Descubre las mejores opciones para ti</p>
+            </div>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-image">
+                        <div class="property-badge">Nuevo</div>
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop" alt="Propiedad 1">
+                    </div>
+                    <div class="property-content">
+                        <h3>Villa Moderna en Playa del Carmen</h3>
+                        <p class="property-location">📍 Playa del Carmen, Quintana Roo</p>
+                        <div class="property-details">
+                            <span>3 Habitaciones</span>
+                            <span>2 Baños</span>
+                            <span>250 m²</span>
+                        </div>
+                        <div class="property-price">$2,500,000 MXN</div>
+                        <a href="#" class="btn btn-outline">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <div class="property-badge">Destacado</div>
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop" alt="Propiedad 2">
+                    </div>
+                    <div class="property-content">
+                        <h3>Departamento con Vista al Mar</h3>
+                        <p class="property-location">📍 Tulum, Quintana Roo</p>
+                        <div class="property-details">
+                            <span>2 Habitaciones</span>
+                            <span>2 Baños</span>
+                            <span>120 m²</span>
+                        </div>
+                        <div class="property-price">$1,800,000 MXN</div>
+                        <a href="#" class="btn btn-outline">Ver Detalles</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Propiedad 3">
+                    </div>
+                    <div class="property-content">
+                        <h3>Casa Familiar en Cancún</h3>
+                        <p class="property-location">📍 Cancún, Quintana Roo</p>
+                        <div class="property-details">
+                            <span>4 Habitaciones</span>
+                            <span>3 Baños</span>
+                            <span>320 m²</span>
+                        </div>
+                        <div class="property-price">$3,200,000 MXN</div>
+                        <a href="#" class="btn btn-outline">Ver Detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Nosotros</h2>
+                    <p>En A•HOME Riviera Maya, nos especializamos en ayudarte a encontrar la propiedad perfecta en uno de los destinos más hermosos del mundo. Con años de experiencia en el mercado inmobiliario de la Riviera Maya, ofrecemos un servicio personalizado y profesional.</p>
+                    <p>Nuestro equipo conoce cada rincón de la región y está comprometido con hacer realidad tu sueño de vivir en el paraíso caribeño.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Propiedades</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Clientes Satisfechos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Años de Experiencia</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="Riviera Maya">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <p>Todo lo que necesitas para tu inversión inmobiliaria</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Compra y Venta</h3>
+                    <p>Asesoría completa en la compra o venta de propiedades</p>
+                </div>
+                <div class="service-card">
+                    <h3>Renta</h3>
+                    <p>Gestión de propiedades en renta temporal y permanente</p>
+                </div>
+                <div class="service-card">
+                    <h3>Asesoría Legal</h3>
+                    <p>Apoyo legal en todos los procesos de transacción</p>
+                </div>
+                <div class="service-card">
+                    <h3>Valuación</h3>
+                    <p>Valuaciones profesionales y precisas de tu propiedad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contacto</h2>
+                <p>Estamos aquí para ayudarte</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>📍 Dirección</h3>
+                        <p>Riviera Maya, Quintana Roo, México</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>📞 Teléfono</h3>
+                        <p>+52 (984) XXX XXXX</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>✉️ Email</h3>
+                        <p>contacto@ahomeqroo.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>A•HOME</h3>
+                    <p>Tu hogar en la Riviera Maya</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#propiedades">Propiedades</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">Facebook</a>
+                        <a href="#" aria-label="Instagram">Instagram</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 A•HOME Riviera Maya. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
